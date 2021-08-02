@@ -1,40 +1,88 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>tremmel.xyz</title>
-    <style>
-    * { 
-      box-sizing: padding-box;
-    }
-    html {
-      height: 100%;
-    }
-    body {
-      font-family: "Courier New", "Courier", monospace;
-      font-size: 12px;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      height: 100%;
-      position: relative;
-    }
-    .content {
-      text-align: center;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    </style>
-  </head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>./hello.there</title>
+  <meta name="description" content="personal page of Daniel Tremmel">
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="canonical" href="index.html">
+  
+	<script type="text/javascript">
+	    function UnCryptMailto( s )
+	    {
+	        var n = 0;
+	        var r = "";
+	        for( var i = 0; i < s.length; i++)
+	        {
+	            n = s.charCodeAt( i );
+	            if( n >= 8364 )
+	            {
+	                n = 128;
+	            }
+	            r += String.fromCharCode( n - 1 );
+	        }
+	        return r;
+	    }
+	
+	    function linkTo_UnCryptMailto( s )
+	    {
+	        location.href=UnCryptMailto( s );
+	    }
+	</script>
+  
+</head>
+
   <body>
-    <div class="container">
-      <div class="content">tremmel.xyz</div>
-    </div>
+
+
+    <main>
+      <div class="content">
+        <div class="home">
+	        
+			<p><img src="assets/square.jpg" alt="" class="avatar" /></p>
+		  
+			<p>&nbsp;</p>
+			
+			<p class="username">Daniel Tremmel</p>
+			
+			<p>&nbsp;</p>
+			
+			<p class="bottom">
+				<a href="javascript:linkTo_UnCryptMailto('nbjmup;ebojfmAusfnnfm/yz{');">
+					<i class="fa fa-envelope"></i>&nbsp;E-Mail
+				</a>
+				&nbsp;|&nbsp;
+				<a href="https://www.linkedin.com/in/daniel-tremmel-722826108/">
+					<i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn
+				</a>
+				&nbsp;|&nbsp;
+				<a href="https://github.com/net47">
+					<i class="fa fa-github"></i>&nbsp;GitHub
+				</a>
+			</p>
+
+			<p class="bottom">
+				<a href="https://keybase.io/tremmel">
+					<i class="fa fa-info-circle"></i>&nbsp;keybase.io
+				</a>
+				&nbsp;|&nbsp;
+				<i class="fa fa-key"></i>&nbsp;PGP&nbsp;1EAE1525D8143292
+			</p>
+
+			<p class="bottom">
+				<i class="fa fa-bitcoin"></i>&nbsp;bc1q257a92334356kr7u7km4ddvmnxpxemhpanc4vp
+			</p>
+		
+		
+		</div>
+
+      </div>
+    </main>
+    
   </body>
 </html>
