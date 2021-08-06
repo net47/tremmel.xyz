@@ -30,6 +30,7 @@ article { display: flex; flex: 1; flex-direction: column; justify-content: cente
 .social { display: inline-block; padding: 0; list-style: none; line-height: 0; }
 .social li { display: inline-block; }
 .social li a { display: inline-block; }
+.social img { height: 22px; }
 
 a { text-decoration: none; }
 
@@ -66,5 +67,3 @@ h3 { color: #b0b0b0; }
 
 .contact-form input, .contact-form textarea { background: white; }
 .contact-form input[type="submit"] { background: #39f; color: black; }
-
-table { border: 1px solid #808080; }
