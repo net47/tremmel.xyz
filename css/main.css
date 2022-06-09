@@ -27,7 +27,16 @@ article { display: flex; flex: 1; flex-direction: column; justify-content: cente
 
 .username { display: block; }
 
-.social { display: inline-block; padding: 0; list-style: none; line-height: 0; }
+.social { 
+    display: inline-block; 
+    padding: 5px;
+    list-style: none; 
+    line-height: 0; 
+    border: 0px solid #808080; 
+    border-radius: 25px;
+    font-size: 12px;
+    text-align: center;
+}
 .social li { display: inline-block; }
 .social li a { display: inline-block; }
 .social img { height: 22px; }
