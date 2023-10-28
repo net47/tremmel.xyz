@@ -1,1 +1,1 @@
-{"tag":"payRequest","callback":"https://lightning.space/v1/lnurlp/cb/3ggg9x","minSendable":1000,"maxSendable":100000000000,"metadata":"[[\"text/plain\", \"BTC payment to daniel@tremmel.xyz\"]]","commentAllowed":799}
+{"tag":"payRequest","callback":"https://lightning.space/v1/lnurlp/cb/3ggg9x","minSendable":1000,"maxSendable":100000000000,"metadata":"[[\"text/plain\", \"Sats for daniel@tremmel.xyz\"]]","commentAllowed":799}
