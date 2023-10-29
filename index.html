@@ -20,29 +20,6 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="canonical" href="index.html">
    
-	<script type="text/javascript">
-	    function UnCryptMailto( s )
-	    {
-	        var n = 0;
-	        var r = "";
-	        for( var i = 0; i < s.length; i++)
-	        {
-	            n = s.charCodeAt( i );
-	            if( n >= 8364 )
-	            {
-	                n = 128;
-	            }
-	            r += String.fromCharCode( n - 1 );
-	        }
-	        return r;
-	    }
-	
-	    function linkTo_UnCryptMailto( s )
-	    {
-	        location.href=UnCryptMailto( s );
-	    }
-	</script>
-
 	<!-- Matomo -->
 	<script>
 		var _paq = window._paq = window._paq || [];
@@ -71,35 +48,37 @@
     <main>
       <div class="content">
         <div class="home">
-	        
-			<p><img src="assets/square.jpg" alt="" class="avatar" /></p>
-		  
-			<p>&nbsp;</p>
 			
-			<p class="username">Daniel Tremmel</p>
-			
-			<p>&nbsp;</p>
+			<p class="username">
+				// Daniel Tremmel
+			</p>
 			
 			<p class="bottom">
-				<a href="javascript:linkTo_UnCryptMailto('nbjmup;ebojfmAusfnnfm/yz{');">
+				<a href="mailto:daniel@tremmel.xyz">
 					<i class="fa fa-envelope"></i>&nbsp;E-Mail
 				</a>
-				&nbsp;|&nbsp;
+			</p>
+
+			<p class="bottom">
 				<a href="https://www.linkedin.com/in/daniel-tremmel-722826108/">
 					<i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn
 				</a>
-				&nbsp;|&nbsp;
+			</p>
+
+			<p class="bottom">
 				<a href="https://github.com/net47">
 					<i class="fa fa-github"></i>&nbsp;GitHub
 				</a>
 			</p>
 
 			<p class="bottom">
-				<a href="https://keybase.io/tremmel">
-					<i class="fa fa-info-circle"></i>&nbsp;keybase.io
-				</a>
-				&nbsp;|&nbsp;
 				<i class="fa fa-key"></i>&nbsp;PGP&nbsp;1EAE1525D8143292
+			</p>
+
+			<p class="bottom">
+				<a href="lightning:daniel@tremmel.xyz">
+					<i class="fa fa-bolt"></i>&nbsp;send me some sats
+				</a>
 			</p>
 		
 		</div>
