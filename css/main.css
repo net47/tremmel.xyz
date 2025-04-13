@@ -135,6 +135,15 @@ h2 { color: #d0d0d0; }
 
 h3 { color: #b0b0b0; }
 
+.portrait {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: inline-block;
+    object-fit: cover;
+}
+
 .bottom { 
     font-size: 12px; 
     padding-left: 15px;
