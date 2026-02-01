@@ -1,5 +1,5 @@
 Contact: mailto:daniel@tremmel.xyz
-Expires: 2026-12-31T23:00:00.000Z
+Expires: 2030-12-31T23:00:00.000Z
 Encryption: https://tremmel.xyz/pgp-key.txt
 Preferred-Languages: en, de
 Canonical: https://tremmel.xyz/.well-known/security.txt
